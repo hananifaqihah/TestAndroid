@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test 1,,,,2023-07-24 17:43:12,2023-07-24 17:48:19,5m - 7.151s,FAILED
+,,,,,,,
+Test Cases/Authentication/1. Login(with error checking),,,Authentication,2023-07-24 17:43:12,2023-07-24 17:44:50,1m - 37.474s,PASSED
+"startApplication(""C:\Users\User\Downloads\4.0.52.apk"", true)",,,,2023-07-24 17:43:13,2023-07-24 17:44:01,48.048s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - I have an account""), 0)",,,,2023-07-24 17:44:01,2023-07-24 17:44:25,24.217s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Login/android.widget.Button - Log In""), 0)",,,,2023-07-24 17:44:25,2023-07-24 17:44:27,2.065s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Please enter your email""), ""Please enter your email."")",,,,2023-07-24 17:44:27,2023-07-24 17:44:28,0.804s,PASSED
+"setText(findTestObject(""Authentication/Login/android.widget.EditText - Email""), ""uatdemo8"", 0)",,,,2023-07-24 17:44:28,2023-07-24 17:44:29,1.458s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Login/android.widget.Button - Log In (1)""), 0)",,,,2023-07-24 17:44:29,2023-07-24 17:44:30,0.675s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Email is not valid""), ""Email is not valid."")",,,,2023-07-24 17:44:30,2023-07-24 17:44:31,0.781s,PASSED
+"setText(findTestObject(""Authentication/Login/android.widget.EditText - uatdemo8""), ""uatdemo8@ramssol.com"", 0)",,,,2023-07-24 17:44:31,2023-07-24 17:44:32,0.986s,PASSED
+"tap(findTestObject(""Authentication/Login/android.widget.Button - Log In""), 0)",,,,2023-07-24 17:44:32,2023-07-24 17:44:33,0.688s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Please enter your password""), ""Please enter your password."")",,,,2023-07-24 17:44:33,2023-07-24 17:44:33,0.780s,PASSED
+"setText(findTestObject(""Object Repository/Authentication/Login/android.widget.EditText - Password""), ""Password02"", 0)",,,,2023-07-24 17:44:33,2023-07-24 17:44:35,1.428s,PASSED
+"tap(findTestObject(""Authentication/Login/android.widget.Button - Log In""), 0)",,,,2023-07-24 17:44:35,2023-07-24 17:44:36,0.683s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Your email and password didnt match""), ""Your email and password didn't match."")",,,,2023-07-24 17:44:36,2023-07-24 17:44:37,1.399s,PASSED
+"setText(findTestObject(""Object Repository/Authentication/Login/android.widget.EditText -""), ""Password01"", 0)",,,,2023-07-24 17:44:37,2023-07-24 17:44:38,1.337s,PASSED
+"tap(findTestObject(""Authentication/Login/android.widget.Button - Log In""), 0)",,,,2023-07-24 17:44:38,2023-07-24 17:44:39,0.701s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Authentication/Login/android.widget.ImageView""), 0)",,,,2023-07-24 17:44:39,2023-07-24 17:44:44,4.608s,PASSED
+"tap(findTestObject(""Authentication/Login/android.widget.ImageView""), 0)",,,,2023-07-24 17:44:44,2023-07-24 17:44:44,0.402s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Log Out""), 0)",,,,2023-07-24 17:44:44,2023-07-24 17:44:46,1.664s,PASSED
+"tap(findTestObject(""Authentication/Login/android.widget.TextView - Log Out""), 0)",,,,2023-07-24 17:44:46,2023-07-24 17:44:46,0.301s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Are you sure you want to log out""), 0)",,,,2023-07-24 17:44:46,2023-07-24 17:44:47,1.109s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Login/android.widget.TextView - Yes""), 0)",,,,2023-07-24 17:44:47,2023-07-24 17:44:47,0.291s,PASSED
+closeApplication(),,,,2023-07-24 17:44:47,2023-07-24 17:44:50,2.540s,PASSED
+,,,,,,,
+Test Cases/Authentication/2. Reset Password(with error checking),,,Authentication,2023-07-24 17:44:50,2023-07-24 17:46:00,1m - 10.378s,PASSED
+"startApplication(""C:\Users\User\Downloads\4.0.52.apk"", true)",,,,2023-07-24 17:44:51,2023-07-24 17:45:36,45.691s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - I have an account""), 0)",,,,2023-07-24 17:45:36,2023-07-24 17:45:41,4.813s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - Forgot password""), 0)",,,,2023-07-24 17:45:41,2023-07-24 17:45:43,2.079s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.Button - Reset Password""), 0)",,,,2023-07-24 17:45:43,2023-07-24 17:45:46,2.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - Please enter your email""), ""Please enter your email."")",,,,2023-07-24 17:45:46,2023-07-24 17:45:46,0.690s,PASSED
+"setText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.EditText - Email""), ""uatdemo8"", 0)",,,,2023-07-24 17:45:46,2023-07-24 17:45:48,1.459s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.Button - Reset Password (1)""), 0)",,,,2023-07-24 17:45:48,2023-07-24 17:45:48,0.703s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - Email is not valid""), ""Email is not valid."")",,,,2023-07-24 17:45:48,2023-07-24 17:45:49,0.732s,PASSED
+"setText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.EditText - uatdemo8""), ""demo3@ramssol.com"", 0)",,,,2023-07-24 17:45:49,2023-07-24 17:45:51,1.436s,PASSED
+"tap(findTestObject(""Authentication/Reset Password/android.widget.Button - Reset Password""), 0)",,,,2023-07-24 17:45:51,2023-07-24 17:45:51,0.709s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - Your email is not registered with Feets. Please enter the correct email provided by your organisation""), ""Your email is not registered with Feet's. Please enter the correct email provided by your organisation."")",,,,2023-07-24 17:45:51,2023-07-24 17:45:52,1.195s,PASSED
+"setText(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.EditText - demo3ramssol.com""), ""uatdemo8@ramssol.com"", 0)",,,,2023-07-24 17:45:52,2023-07-24 17:45:53,0.872s,PASSED
+"tap(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.Button - Reset Password (2)""), 0)",,,,2023-07-24 17:45:53,2023-07-24 17:45:54,0.690s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Authentication/Reset Password/android.widget.TextView - Please check your email for the password reset link""), 0)",,,,2023-07-24 17:45:54,2023-07-24 17:45:58,4.055s,PASSED
+"verifyElementText(findTestObject(""Authentication/Reset Password/android.widget.TextView - Please check your email for the password reset link""), ""Please check your email for the password reset link"")",,,,2023-07-24 17:45:58,2023-07-24 17:45:58,0.312s,PASSED
+closeApplication(),,,,2023-07-24 17:45:58,2023-07-24 17:46:00,1.878s,PASSED
+,,,,,,,
+Test Cases/Mainpage/Change Avatar,,,Mainpage,2023-07-24 17:46:00,2023-07-24 17:47:06,1m - 5.595s,FAILED
+"startApplication(""C:\Users\User\Downloads\4.0.52.apk"", true)",,,,2023-07-24 17:46:01,2023-07-24 17:46:45,44.289s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.TextView - I have an account""), 0)",,,,2023-07-24 17:46:45,2023-07-24 17:46:50,4.900s,PASSED
+"setText(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.EditText - Email""), ""uatdemo9@ramssol.com"", 0)",,,,2023-07-24 17:46:50,2023-07-24 17:46:53,3.109s,PASSED
+"setText(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.EditText - Password""), ""Password01"", 0)",,,,2023-07-24 17:46:53,2023-07-24 17:46:55,1.196s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.Button - Log In""), 0)",,"Login
+",,2023-07-24 17:46:55,2023-07-24 17:46:55,0.687s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.LinearLayout""), 0)",,Click Avatar,,2023-07-24 17:46:55,2023-07-24 17:47:00,5.156s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Avatar/android.widget.FrameLayout""), 0)",,,,2023-07-24 17:47:00,2023-07-24 17:47:06,5.498s,FAILED
+,,,,,,,
+Test Cases/Mainpage/Change background,,,Mainpage,2023-07-24 17:47:06,2023-07-24 17:48:19,1m - 13.330s,PASSED
+"startApplication(""C:\Users\User\Downloads\4.0.52.apk"", true)",,,,2023-07-24 17:47:06,2023-07-24 17:47:39,32.178s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.TextView - I have an account""), 0)",,,,2023-07-24 17:47:39,2023-07-24 17:47:57,17.929s,PASSED
+"setText(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.EditText - Email""), ""uatdemo9@ramssol.com"", 0)",,,,2023-07-24 17:47:57,2023-07-24 17:48:00,3.401s,PASSED
+"setText(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.EditText - Password""), ""Password01"", 0)",,,,2023-07-24 17:48:00,2023-07-24 17:48:01,1.214s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.Button - Log In""), 0)",,,,2023-07-24 17:48:01,2023-07-24 17:48:02,0.731s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.ImageView""), 0)",,Click Background,,2023-07-24 17:48:02,2023-07-24 17:48:10,7.665s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.ImageView (2)""), 0)",,Choose background 1,,2023-07-24 17:48:10,2023-07-24 17:48:11,0.891s,PASSED
+"tap(findTestObject(""Object Repository/Mainpage/Change Background/android.widget.ImageView (3)""), 0)",,Click back,,2023-07-24 17:48:11,2023-07-24 17:48:11,0.362s,PASSED
+"tap(findTestObject(""Mainpage/Change Background/android.widget.ImageView (5)""), 0)",,Click Background,,2023-07-24 17:48:11,2023-07-24 17:48:13,2.218s,PASSED
+"tap(findTestObject(""Mainpage/Change Background/android.widget.ImageView (4)""), 0)",,Choose background 2,,2023-07-24 17:48:13,2023-07-24 17:48:15,2.073s,PASSED
+"tap(findTestObject(""Mainpage/Change Background/android.widget.ImageView (3)""), 0)",,Click back,,2023-07-24 17:48:15,2023-07-24 17:48:15,0.337s,PASSED
+"waitForElementPresent(findTestObject(""Mainpage/Change Background/android.widget.ImageView (5)""), 0)",,,,2023-07-24 17:48:15,2023-07-24 17:48:17,1.506s,PASSED
+closeApplication(),,,,2023-07-24 17:48:17,2023-07-24 17:48:19,2.208s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Add Account</name>
+   <tag>Settings</tag>
+   <comment></comment>
+   <testCaseGuid>d1ed2243-d4c6-4ada-bf70-005caecdb7a5</testCaseGuid>
+</TestCaseEntity>
