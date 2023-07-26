@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Authentication/1. Login(with error checking)","testCaseId":"Test Cases/Authentication/1. Login(with error checking)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentication/2. Reset Password(with error checking)","testCaseId":"Test Cases/Authentication/2. Reset Password(with error checking)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Settings/1. Add Account","testCaseId":"Test Cases/Settings/1. Add Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Settings/2. Switch,Delete Account","testCaseId":"Test Cases/Settings/2. Switch,Delete Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Settings/3. Change Appearance","testCaseId":"Test Cases/Settings/3. Change Appearance","iterationVariableName":""}
